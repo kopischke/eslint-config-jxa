@@ -1,0 +1,10 @@
+[
+  "env",
+  "globals",
+  "overrides",
+  "parser",
+  "parserOptions",
+  "plugins",
+  "processor",
+  "rules"
+]

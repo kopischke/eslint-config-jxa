@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-jxa",
+  "version": "1.0.0",
+  "description": "Make ESLint play nice with JavaScript for Automation (JXA) code.",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "jxa",
+    "osascript"
+  ],
+  "author": "Martin Kopischke <martin@kopischke.net>",
+  "license": "MIT",
+  "homepage": "https://github.com/kopischke/eslint-config-jxa#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kopischke/eslint-config-jxa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kopischke/eslint-config-jxa/issues"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsdoc": "^30.6.3",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.5.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.4.0 || ^6 || ^7"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

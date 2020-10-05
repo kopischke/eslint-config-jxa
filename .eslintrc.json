@@ -1,10 +1,20 @@
 {
   "extends": [
     "standard",
+    "jest",
     "plugin:jsdoc/recommended",
     "plugin:json/recommended"
   ],
   "rules": {
     "jsdoc/newline-after-description": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["tests/**/*.test.js"],
+      "extends": [
+        "plugin:jest/recommended",
+        "plugin:jest/style"
+      ]
+    }
+  ]
 }
