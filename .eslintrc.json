@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "standard",
+    "plugin:jsdoc/recommended",
+    "plugin:json/recommended"
+  ],
+  "rules": {
+    "jsdoc/newline-after-description": "off"
+  }
+}
