@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jxa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make ESLint play nice with JavaScript for Automation (JXA) code.",
   "keywords": [
     "eslint",

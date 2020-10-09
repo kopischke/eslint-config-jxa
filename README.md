@@ -80,6 +80,6 @@ Note these will only work in conjunction with the basic configuration. Because t
 
 ### License
 
-This config is shared under the [MIT License](https://github.com/kopischke/eslint-config-jxa/LICENSE.md).
+This config is shared under the [MIT License](https://github.com/kopischke/eslint-config-jxa/blob/main/LICENSE.md).
 
 [jxa-infusion]: https://github.com/kopischke/JXA-Infusion
