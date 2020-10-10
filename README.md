@@ -69,7 +69,7 @@ Note these will only work in conjunction with the basic configuration. Because t
     ]
   },
   {
-    "files": ["Libraries/*+/*.jxa"],
+    "files": ["Libraries/**/*.jxa"],
     "extends": [
       "jxa/objc",
       "jxa/library"
