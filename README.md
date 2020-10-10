@@ -4,7 +4,7 @@ An [ESLint Shareable Config](https://eslint.org/docs/developer-guide/shareable-c
 
 ## Installation
 
-You'll first need to install [ESLint](https://eslint.org/docs/user-guide/getting-started#installation-and-usage), e.g.:
+You'll need to install [ESLint](https://eslint.org/docs/user-guide/getting-started#installation-and-usage) first, e.g.:
 
 ```sh
 $ npm install eslint --save-dev
@@ -22,7 +22,7 @@ Add the relevant configuration to your [_extends_](https://eslint.org/docs/user-
 
 ### Basic configuration
 
-If you use standard JavaScript file extensions (i.e. `.js`) for your JXA source code, all you have to do is to add this to your `.eslintrc` file`:
+If you use standard JavaScript file extensions (i.e. `.js`) for your JXA source code, all you have to do is to add this to your `.eslintrc.json` file`:
 
 ```json
 {
@@ -47,13 +47,13 @@ If you use the `.jxa` file extension, extend in an [_override_](https://eslint.o
 
 ### Additional configuration
 
-Besides the default configuration, there are additional configurations available for some special JXA coding scenarios:
+There are additional configs available for some special JXA coding scenarios:
  
  - **objc**: for JXA source that uses the Objective C bridge.
  - **library**: for JXA files intended to be loaded via `Library()`.
  - **injection**: for JXA files intended as [JXA Infusion][jxa-infusion] injections.
 
-Note these will only work in conjunction with the basic configuration. Because the additional configurations restrict the scope of, or, on the case of the _objc_ rules, entirely disable some ESLint checks, you should only include them in very specific overrides, e.g. (example taken from the [JXA Infusion][jxa-infusion] project):
+Note these will only work in conjunction with the basic configuration. Because the additional configurations restrict the scope of, or, in the case of the _objc_ rules, entirely disable some ESLint checks, you should only include them in very specific overrides, e.g. (example taken from the [JXA Infusion][jxa-infusion] project):
 
 ```json
 "overrides": [
