@@ -1,9 +1,9 @@
 const library = require('../library')
+const getType = require('jest-get-type')
 
 test('exports an object', () => {
   expect(library).toBeDefined()
-  expect(typeof library).toBe('object')
-  expect(Array.isArray(library)).toBe(false)
+  expect(getType(library)).toBe('object')
 })
 
 test('exported object contains only rules', () => {
@@ -15,7 +15,6 @@ test('exported object contains only rules', () => {
 test('exported object rules are objects', () => {
   Object.values(library).forEach(v => {
     expect(v).toBeDefined()
-    expect(typeof v).toBe('object')
-    expect(Array.isArray(v)).toBe(false)
+    expect(getType(v)).toBe('object')
   })
 })

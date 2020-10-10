@@ -1,9 +1,9 @@
 const objc = require('../objc')
+const getType = require('jest-get-type')
 
 test('exports an object', () => {
   expect(objc).toBeDefined()
-  expect(typeof objc).toBe('object')
-  expect(Array.isArray(objc)).toBe(false)
+  expect(getType(objc)).toBe('object')
 })
 
 test('exported object contains only rules', () => {
@@ -15,7 +15,6 @@ test('exported object contains only rules', () => {
 test('exported object rules are objects', () => {
   Object.values(objc).forEach(v => {
     expect(v).toBeDefined()
-    expect(typeof v).toBe('object')
-    expect(Array.isArray(v)).toBe(false)
+    expect(getType(v)).toBe('object')
   })
 })
