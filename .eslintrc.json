@@ -1,7 +1,6 @@
 {
   "extends": [
     "standard",
-    "jest",
     "plugin:jsdoc/recommended",
     "plugin:json/recommended"
   ],
