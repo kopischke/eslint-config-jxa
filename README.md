@@ -53,7 +53,7 @@ Besides the default configuration, there are additional configurations available
  - **library**: for JXA files intended to be loaded via `Library()`.
  - **injection**: for JXA files intended as [JXA Infusion][jxa-infusion] injections.
 
-Note these will only work in conjunction with the basic configuration. Because the additional configurations disable some ESLint rules, you should only include them in very specific overrides, e.g. (example taken from the [JXA Infusion][jxa-infusion] project):
+Note these will only work in conjunction with the basic configuration. Because the additional configurations restrict the scope of, or, on the case of the _objc_ rules, entirely disable some ESLint checks, you should only include them in very specific overrides, e.g. (example taken from the [JXA Infusion][jxa-infusion] project):
 
 ```json
 "overrides": [
