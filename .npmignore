@@ -1,0 +1,8 @@
+# generic dev crud
+.editorconfig
+.elintrc*.*
+.gitignore
+
+#testing infrastructure
+jest.config.js
+tests/
