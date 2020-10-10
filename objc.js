@@ -8,10 +8,6 @@
 module.exports = {
   rules: {
     // Void ObjC bridge functions are called as expressions.
-    'no-unused-expressions': ['error', {
-      allowShortCircuit: true,
-      allowTernary: true,
-      allowTaggedTemplates: false
-    }]
+    'no-unused-expressions': 'off'
   }
 }
