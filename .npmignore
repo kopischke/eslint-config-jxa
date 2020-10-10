@@ -1,6 +1,6 @@
 # generic dev crud
 .editorconfig
-.elintrc*.*
+.eslintrc.json
 .gitignore
 
 #testing infrastructure
