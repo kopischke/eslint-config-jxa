@@ -18,7 +18,7 @@ const restricted = [
 module.exports = {
   parserOptions: {
     sourceType: 'script',
-    ecmaVersion: 6,
+    ecmaVersion: 9,
     ecmaFeatures: {
       globalReturn: false,
       impliedStrict: false,
